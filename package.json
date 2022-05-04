@@ -1,6 +1,6 @@
 {
-  "name": "tasks",
-  "description": "Next.js Starter",
+  "name": "nextjs-typescript-starter",
+  "description": "Next.js TypeScript Starter",
   "version": "1.0.0",
   "author": "Jitendra Nirnejak <jeetnirnejak@gmail.com>",
   "scripts": {
