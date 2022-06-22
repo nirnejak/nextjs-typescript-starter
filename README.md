@@ -4,6 +4,11 @@
 
 ---
 
+## Additional Packages Used
+
+- Framer Motion - for animations
+- React Query - for data fetching and caching
+
 ## Available Scripts
 
 **Install Dependencies**
