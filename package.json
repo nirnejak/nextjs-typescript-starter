@@ -13,20 +13,20 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "dotenv": "^16.0.0",
-    "framer-motion": "^6.3.3",
+    "dotenv": "^16.0.1",
+    "framer-motion": "^6.3.13",
     "next": "^12.1.6",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "react-intersection-observer": "^9.1.0",
-    "sass": "^1.51.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.3.3",
+    "sass": "^1.52.3"
   },
   "devDependencies": {
-    "@types/node": "^17.0.31",
-    "@types/react": "^18.0.9",
-    "@typescript-eslint/eslint-plugin": "^5.22.0",
-    "@typescript-eslint/parser": "^5.22.0",
-    "eslint": "^8.15.0",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
     "eslint-config-next": "^12.1.6",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
@@ -36,10 +36,10 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-standard": "^5.0.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.4.1",
-    "prettier": "^2.6.2",
-    "typescript": "^4.6.4",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
     "use-sound": "^4.0.1"
   },
   "lint-staged": {
