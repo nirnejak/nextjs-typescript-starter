@@ -6,6 +6,7 @@
 
 ## Additional Packages Used
 
+- Tailwind CSS - for styling
 - Framer Motion - for animations
 - React Query - for data fetching and caching
 - use-sound - for using sound effects
