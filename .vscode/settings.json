@@ -15,5 +15,6 @@
     "editor.formatOnSave": false
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.words": ["tailwindcss"]
 }
