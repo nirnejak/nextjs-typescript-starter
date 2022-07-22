@@ -5,19 +5,30 @@
       "type": "npm",
       "script": "start",
       "problemMatcher": [],
-      "label": "npm: start",
-      "detail": "npm run develop"
+      "label": "Start Production Server",
+      "detail": "npm start"
+    },
+    {
+      "type": "npm",
+      "script": "dev",
+      "group": {
+        "kind": "none",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "label": "Start Development Server",
+      "detail": "npm run dev"
     },
     {
       "type": "npm",
       "script": "build",
       "group": {
         "kind": "build",
-        "isDefault": true
+        "isDefault": false
       },
       "problemMatcher": [],
-      "label": "npm: build",
-      "detail": "gatsby build"
+      "label": "Build for Production",
+      "detail": "npm run build"
     }
   ]
 }
