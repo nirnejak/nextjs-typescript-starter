@@ -30,6 +30,7 @@
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
     "react/jsx-no-useless-fragment": "error",
+    "react/no-multi-comp": "error",
 
     "react-hooks/exhaustive-deps": "warn",
     "react-hooks/rules-of-hooks": "error",
