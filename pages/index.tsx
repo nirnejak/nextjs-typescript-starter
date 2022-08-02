@@ -11,8 +11,8 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="h-screen grid place-content-center">
-        <h1 className="text-8xl font-bold text-center text-slate-800">
+      <main className="grid h-screen place-content-center">
+        <h1 className="text-center text-8xl font-bold text-slate-800">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
       </main>
