@@ -73,17 +73,12 @@
             "position": "before"
           },
           {
-            "pattern": "redux*",
-            "group": "external",
-            "position": "before"
-          },
-          {
-            "pattern": "gatsby*",
+            "pattern": "next*",
             "group": "external",
             "position": "before"
           }
         ],
-        "pathGroupsExcludedImportTypes": ["react*", "redux*", "next*"],
+        "pathGroupsExcludedImportTypes": ["react*", "next*"],
         "newlines-between": "always",
         "alphabetize": {
           "order": "asc",
