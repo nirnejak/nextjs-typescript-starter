@@ -15,7 +15,7 @@
   "dependencies": {
     "@tanstack/react-query": "^4.2.1",
     "dotenv": "^16.0.1",
-    "framer-motion": "^7.2.0",
+    "framer-motion": "^7.2.1",
     "next": "^12.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,7 +23,7 @@
     "sharp": "^0.30.7"
   },
   "devDependencies": {
-    "@types/node": "^18.7.9",
+    "@types/node": "^18.7.13",
     "@types/react": "^18.0.17",
     "@typescript-eslint/eslint-plugin": "^5.34.0",
     "@typescript-eslint/parser": "^5.34.0",
