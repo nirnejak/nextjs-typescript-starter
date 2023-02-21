@@ -13,9 +13,9 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@tanstack/react-query": "^4.24.6",
+    "@tanstack/react-query": "^4.24.9",
     "dotenv": "^16.0.3",
-    "framer-motion": "^9.0.4",
+    "framer-motion": "^9.0.7",
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -23,10 +23,10 @@
     "sharp": "^0.31.3"
   },
   "devDependencies": {
-    "@types/node": "^18.13.0",
+    "@types/node": "^18.14.0",
     "@types/react": "^18.0.28",
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
-    "@typescript-eslint/parser": "^5.52.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.34.0",
     "eslint-config-next": "^13.1.6",
@@ -38,7 +38,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-standard": "^5.0.0",
-    "eslint-plugin-tailwindcss": "^3.8.3",
+    "eslint-plugin-tailwindcss": "^3.9.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "postcss": "^8.4.21",
