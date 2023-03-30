@@ -4,6 +4,12 @@
 
 ---
 
+## Included
+
+- `_document.tsx` file with basic Metadata
+- `manifest.json` for site info
+- `classnames` util for easily managing classes
+
 ## Additional Packages Used
 
 - Tailwind CSS - for styling
