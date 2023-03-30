@@ -15,20 +15,20 @@
   "dependencies": {
     "@tanstack/react-query": "^4.28.0",
     "dotenv": "^16.0.3",
-    "framer-motion": "^10.6.1",
+    "framer-motion": "^10.10.0",
     "next": "^13.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.4.3",
-    "sharp": "^0.31.3"
+    "sharp": "^0.32.0"
   },
   "devDependencies": {
-    "@types/node": "^18.15.5",
-    "@types/react": "^18.0.28",
-    "@typescript-eslint/eslint-plugin": "^5.56.0",
-    "@typescript-eslint/parser": "^5.56.0",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.31",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.36.0",
+    "eslint": "^8.37.0",
     "eslint-config-next": "^13.2.4",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-standard": "^17.0.0",
