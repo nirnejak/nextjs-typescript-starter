@@ -4,7 +4,7 @@ import { useInView } from "react-intersection-observer"
 import { motion, useAnimation } from "framer-motion"
 import Head from "next/head"
 
-const Home = () => {
+const Home: React.FC = () => {
   const controls = useAnimation()
   const [ref, inView] = useInView()
 
