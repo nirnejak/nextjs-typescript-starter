@@ -71,7 +71,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ["Inter"],
+      sans: ["var(--inter-font)"],
     },
   },
   variants: {
