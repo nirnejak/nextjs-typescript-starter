@@ -37,7 +37,7 @@ const Home: React.FC = () => {
         ref={ref}
         className="grid h-screen place-content-center"
       >
-        <h1 className="text-center text-8xl font-bold text-slate-800">
+        <h1 className="text-center text-8xl font-bold text-zinc-300">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
       </motion.main>
