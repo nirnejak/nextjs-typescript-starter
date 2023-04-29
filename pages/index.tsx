@@ -30,11 +30,11 @@ const Home: React.FC = () => {
       </Head>
 
       <motion.main
-        animate={controls}
-        initial="hidden"
-        transition={{ delay: 0, duration: 0.15, type: "spring" }}
-        variants={variants}
         ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={variants}
+        transition={{ delay: 0, duration: 0.15, type: "spring" }}
         className="grid h-screen place-content-center"
       >
         <h1 className="text-center text-8xl font-bold text-zinc-300">
