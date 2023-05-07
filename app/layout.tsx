@@ -1,11 +1,29 @@
 import * as React from "react"
 
-import { Html, Head, Main, NextScript } from "next/document"
+import { Inter } from "next/font/google"
 
-const MyDocument: React.FC = () => {
+import classNames from "utils/classNames"
+
+import "../styles/main.css"
+
+const inter = Inter({
+  variable: "--inter-font",
+  subsets: ["latin"],
+})
+
+export const metadata = {
+  title: "Next.js App",
+  description: "Next.js Typescript Starter",
+}
+
+interface Props {
+  children: React.ReactNode
+}
+
+const RootLayout: React.FC<Props> = ({ children }) => {
   return (
-    <Html lang="en">
-      <Head>
+    <html lang="en">
+      <head>
         <meta charSet="utf-8" />
         {/* Icons */}
         <link rel="icon" href="/favicon.ico" />
@@ -40,13 +58,18 @@ const MyDocument: React.FC = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@twitterusername" />
         <meta name="twitter:site" content="@twitterusername" />
-      </Head>
-      <body className="overflow-x-hidden bg-zinc-900">
-        <Main />
-        <NextScript />
+      </head>
+
+      <body
+        className={classNames(
+          inter.variable,
+          "overflow-x-hidden bg-zinc-900 font-sans"
+        )}
+      >
+        {children}
       </body>
-    </Html>
+    </html>
   )
 }
 
-export default MyDocument
+export default RootLayout
