@@ -13,7 +13,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.8.4",
+    "@tanstack/react-query": "^5.8.6",
     "dotenv": "^16.3.1",
     "framer-motion": "^10.16.5",
     "next": "^14.0.3",
@@ -24,8 +24,8 @@
     "use-sound": "^4.0.1"
   },
   "devDependencies": {
-    "@types/node": "^20.9.2",
-    "@types/react": "^18.2.37",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.38",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "@typescript-eslint/parser": "^6.12.0",
     "autoprefixer": "^10.4.16",
