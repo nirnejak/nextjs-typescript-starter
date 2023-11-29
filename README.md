@@ -16,6 +16,7 @@
 - Framer Motion - for animations
 - React Query - for data fetching and caching
 - use-sound - for using sound effects
+- Akar Icons - library for rounded icons
 
 ## Available Scripts
 
