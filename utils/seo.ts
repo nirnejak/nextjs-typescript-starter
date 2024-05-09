@@ -1,6 +1,6 @@
 import { type Metadata } from "next"
 
-export const BASE_URL = "https://nirnejak.com"
+export const BASE_URL = "https://exaple.com" // Don't include slash at the end
 
 interface MetadataArgs {
   path: string
