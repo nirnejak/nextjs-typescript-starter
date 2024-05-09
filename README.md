@@ -6,7 +6,7 @@
 
 ## Included
 
-- `_document.tsx` file with basic Metadata
+- `seo.ts` util to generate SEO metadata
 - `manifest.json` for site info
 - `classnames` util for easily managing classes
 
@@ -14,9 +14,9 @@
 
 - Tailwind CSS - for styling
 - Framer Motion - for animations
-- React Query - for data fetching and caching
-- use-sound - for using sound effects
 - Akar Icons - library for rounded icons
+- use-sound - for using sounds
+- React Query - for data fetching and caching
 
 ## Available Scripts
 
