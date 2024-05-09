@@ -3,19 +3,12 @@ import * as React from "react"
 import { Inter } from "next/font/google"
 
 import classNames from "utils/classNames"
-import generateMetadata from "utils/seo"
 
 import "../styles/main.css"
 
 const inter = Inter({
   variable: "--inter-font",
   subsets: ["latin"],
-})
-
-export const metadata = generateMetadata({
-  path: "/",
-  title: "Next.js App",
-  description: "Next.js Typescript Starter",
 })
 
 interface Props {

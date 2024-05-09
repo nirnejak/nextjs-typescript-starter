@@ -1,5 +1,13 @@
 import * as React from "react"
 
+import generateMetadata from "utils/seo"
+
+export const metadata = generateMetadata({
+  path: "/",
+  title: "Next.js App",
+  description: "Next.js Typescript Starter",
+})
+
 const Home: React.FC = () => {
   return (
     <main className="grid h-screen place-content-center">
