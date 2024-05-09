@@ -1,8 +1,9 @@
 import * as React from "react"
+import { type Metadata } from "next"
 
 import generateMetadata from "utils/seo"
 
-export const metadata = generateMetadata({
+export const metadata: Metadata = generateMetadata({
   path: "/",
   title: "Next.js App",
   description: "Next.js Typescript Starter",
