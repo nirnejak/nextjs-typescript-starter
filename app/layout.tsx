@@ -1,4 +1,5 @@
 import * as React from "react"
+import type { Viewport } from "next"
 
 import { Inter } from "next/font/google"
 
@@ -10,6 +11,10 @@ const inter = Inter({
   variable: "--inter-font",
   subsets: ["latin"],
 })
+
+export const viewport: Viewport = {
+  themeColor: "#000000",
+}
 
 interface Props {
   children: React.ReactNode
