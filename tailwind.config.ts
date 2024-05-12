@@ -86,7 +86,7 @@ const config: Config = {
       },
     },
     fontFamily: {
-      sans: ["var(--inter-font)"],
+      sans: ["var(--sans-font)"],
     },
   },
   variants: {

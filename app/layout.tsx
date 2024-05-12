@@ -7,8 +7,8 @@ import classNames from "utils/classNames"
 
 import "../styles/main.css"
 
-const inter = Inter({
-  variable: "--inter-font",
+const sansFont = Inter({
+  variable: "--sans-font",
   subsets: ["latin"],
 })
 
@@ -27,7 +27,7 @@ const RootLayout: React.FC<Props> = ({ children }) => {
 
       <body
         className={classNames(
-          inter.variable,
+          sansFont.variable,
           "overflow-x-hidden bg-zinc-900 font-sans"
         )}
       >
