@@ -1,6 +1,5 @@
 import * as React from "react"
 import type { Viewport } from "next"
-
 import { Inter } from "next/font/google"
 
 import classNames from "utils/classNames"
