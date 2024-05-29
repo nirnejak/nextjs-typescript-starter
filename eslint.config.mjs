@@ -5,10 +5,9 @@ import pluginJs from "@eslint/js"
 import nextPlugin from "@next/eslint-plugin-next"
 import reactPlugin from "eslint-plugin-react"
 import hooksPlugin from "eslint-plugin-react-hooks"
+import pluginJsxA11y from "eslint-plugin-jsx-a11y"
 
 // import reactRefresh from "eslint-plugin-react-refresh"
-
-// import jsxA11y from "eslint-plugin-jsx-a11y"
 
 export default [
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
@@ -39,6 +38,12 @@ export default [
       ...nextPlugin.configs.recommended.rules,
       ...nextPlugin.configs["core-web-vitals"].rules,
     },
+  },
+  {
+    plugins: {
+      "jsx-a11y": pluginJsxA11y,
+    },
+    rules: pluginJsxA11y.configs.recommended.rules,
   },
   {
     ignores: [".next/*"],
