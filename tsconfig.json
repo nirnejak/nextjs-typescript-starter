@@ -26,6 +26,8 @@
     "**/*.ts",
     "**/*.tsx",
     "tailwind.config.ts",
+    "prettier.config.mjs",
+    "postcss.config.mjs",
     ".next/types/**/*.ts"
   ],
   "exclude": ["node_modules"]
