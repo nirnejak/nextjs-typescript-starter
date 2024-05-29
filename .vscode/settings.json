@@ -4,7 +4,7 @@
   "editor.minimap.renderCharacters": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll": "explicit"
   },
   "emmet.includeLanguages": {
     "django-html": "html",
