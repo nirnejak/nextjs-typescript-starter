@@ -54,6 +54,7 @@ const generateMetadata = ({
       title: metaTitle,
       description: metaDescription,
       images: metaImage,
+      // videos: "",  // INFO: og video option
     },
 
     twitter: {
