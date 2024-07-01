@@ -17,7 +17,6 @@
 - Akar Icons - library for rounded icons
 - Sonner - for toast messages
 - use-sound - for using sounds
-- React Query - for data fetching and caching
 
 ## Available Scripts
 
