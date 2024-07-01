@@ -17,6 +17,7 @@
 - Akar Icons - library for rounded icons
 - Sonner - for toast messages
 - use-sound - for using sounds
+- Class Variance Authority - for type-safely managing class names
 
 ## Available Scripts
 
