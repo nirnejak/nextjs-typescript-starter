@@ -13,7 +13,6 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.48.0",
     "akar-icons": "^1.9.31",
     "class-variance-authority": "^0.7.0",
     "dotenv": "^16.4.5",
