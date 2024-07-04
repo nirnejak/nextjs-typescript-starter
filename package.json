@@ -16,7 +16,7 @@
     "akar-icons": "^1.9.31",
     "class-variance-authority": "^0.7.0",
     "dotenv": "^16.4.5",
-    "framer-motion": "^11.2.12",
+    "framer-motion": "^11.2.13",
     "next": "^14.2.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
