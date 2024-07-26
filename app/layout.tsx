@@ -5,6 +5,7 @@ import type { Viewport } from "next"
 import { Inter } from "next/font/google"
 import localFont from "next/font/local"
 
+import { renderSchemaTags } from "@/utils/seo"
 import classNames from "utils/classNames"
 
 import "../styles/main.css"
@@ -36,7 +37,7 @@ interface Props {
 const RootLayout: React.FC<Props> = ({ children }) => {
   return (
     <html lang="en">
-      <head></head>
+      <head>{renderSchemaTags()}</head>
 
       <body
         className={classNames(
