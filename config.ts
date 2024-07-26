@@ -1,7 +1,5 @@
 const config = {
   baseUrl: "https://example.com",
-  author: "",
-  domainName: "my-app",
   appName: "<Application Name>",
   appDescription: "<Application Description>",
   creator: "<Creator Name>",
