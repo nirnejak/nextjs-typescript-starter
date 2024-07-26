@@ -1,6 +1,6 @@
-import { type Metadata } from "next"
+import { type Metadata } from "next" // Don't include slash at the end
 
-export const BASE_URL = "https://example.com" // Don't include slash at the end
+import config from "@/config"
 
 interface MetadataArgs {
   path: string
@@ -17,39 +17,29 @@ const generateMetadata = ({
 }: MetadataArgs): Metadata => {
   const metaTitle = title
   const metaDescription = description
-  const metaImage = image ?? `${BASE_URL}/cover.png`
+  const metaImage = image ?? `${config.baseUrl}/cover.png`
 
   const metadata: Metadata = {
     title: metaTitle,
     description: metaDescription,
 
-    applicationName: "<Application Name>",
-    creator: "<Creator Name>",
-    authors: [{ name: "<Author Name>", url: "<Author Name or Email>" }],
+    applicationName: config.appName,
+    creator: config.creator,
+    authors: [{ name: config.authorName, url: config.authorUrl }],
     robots:
       "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-    keywords: [
-      "Next.js",
-      "TailwindCSS",
-      "Framer Motion",
-      "TypeScript",
-      "Akar Icons",
-      "ESLint",
-      "Prettier",
-      "JavaScript",
-      "Postgres",
-    ],
+    keywords: config.keywords,
 
     icons: {
       icon: "/favicon.ico",
       shortcut: "/icons/icon-512x512.png",
       apple: "/icons/icon-512x512.png",
     },
-    manifest: `${BASE_URL}/manifest.json`,
+    manifest: `${config.baseUrl}/manifest.json`,
 
     openGraph: {
       type: "website",
-      url: `${BASE_URL}${path}`,
+      url: `${config.baseUrl}${path}`,
       siteName: "<Site Name>",
       title: metaTitle,
       description: metaDescription,
@@ -59,8 +49,8 @@ const generateMetadata = ({
 
     twitter: {
       card: "summary_large_image",
-      site: "@site",
-      creator: "@creator",
+      site: config.twitterSite,
+      creator: config.twitterCreator,
       title: metaTitle,
       description: metaDescription,
       images: metaImage,
