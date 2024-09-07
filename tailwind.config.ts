@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        screens: {
+          "2xl": "980px",
+        },
+      },
       keyframes: {
         fadeIn: {
           from: { opacity: "0" },
