@@ -14,7 +14,7 @@
 
 ## Additional Packages Used
 
-- Tailwind CSS - for styling
+- Tailwind CSS - for styling(with typography plugin)
 - Framer Motion - for animations
 - Akar Icons - library for rounded icons
 - Sonner - for toast messages
