@@ -98,7 +98,7 @@ const config: Config = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 }
 
 export default config
