@@ -13,7 +13,7 @@ export const metadata: Metadata = generateMetadata({
 const Home: React.FC = () => {
   return (
     <main className="grid h-screen place-content-center">
-      <h1 className="text-center text-xl font-medium text-zinc-300">
+      <h1 className="text-5xl font-semibold tracking-tighter text-zinc-400">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
     </main>
