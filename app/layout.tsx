@@ -5,8 +5,8 @@ import type { Viewport } from "next"
 import { Inter } from "next/font/google"
 import localFont from "next/font/local"
 
-import { renderSchemaTags } from "@/utils/seo"
 import classNames from "utils/classNames"
+import { renderSchemaTags } from "utils/schema"
 
 import "../styles/main.css"
 
