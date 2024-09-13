@@ -6,14 +6,15 @@
 
 ## Included
 
-- `seo.ts` util to generate SEO metadata
+- `config.ts` container site information to be used for seo and schema.org data
+- `seo.ts` util to generate SEO metadata and schema.org
 - `manifest.json` for site info
 - `classnames` util for easily managing classes
 - `components/atoms/Button.tsx` a button component with variants
 
 ## Additional Packages Used
 
-- Tailwind CSS - for styling
+- Tailwind CSS - for styling(with typography plugin)
 - Framer Motion - for animations
 - Akar Icons - library for rounded icons
 - Sonner - for toast messages
