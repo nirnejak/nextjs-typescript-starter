@@ -15,6 +15,10 @@ const config: Config = {
         },
       },
       keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
         fadeIn: {
           from: { opacity: "0" },
           to: { opacity: "1" },
@@ -78,6 +82,7 @@ const config: Config = {
         },
       },
       animation: {
+        marquee: "marquee 25s linear infinite",
         fadeIn: "fadeIn 400ms cubic-bezier(0.16, 1, 0.3, 1)",
         slideDownAndFade:
           "slideDownAndFade 400ms cubic-bezier(0.16, 1, 0.3, 1)",
