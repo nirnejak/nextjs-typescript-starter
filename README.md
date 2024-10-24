@@ -11,8 +11,8 @@
 - `manifest.json` for site info
 - `classnames` util for easily managing classes
 - `components/atoms/Button.tsx` a button component with variants
-- `useClickOutside` hook to check if user clicked outside the element
-- `useModal` hook to create modals, which can close with esc
+- `hooks/useClickOutside` hook to check if user clicked outside the element
+- `hooks/useModal` hook to create modals, which can close with esc
 
 ## Additional Packages Used
 
