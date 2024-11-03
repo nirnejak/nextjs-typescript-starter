@@ -20,7 +20,7 @@ const Home: React.FC = () => {
         initial={{ translateY: 20, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
         transition={{ delay: 0, ...BASE_TRANSITION }}
-        className="text-5xl font-semibold tracking-tighter text-zinc-400"
+        className="text-5xl font-semibold tracking-tighter text-zinc-800 dark:text-zinc-300"
       >
         Welcome to my Next.js starter!
       </motion.h1>
