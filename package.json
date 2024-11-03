@@ -21,12 +21,12 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sharp": "^0.33.5",
-    "sonner": "^1.5.0",
+    "sonner": "^1.6.1",
     "use-sound": "^4.0.3"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.15",
-    "@types/node": "^22.8.6",
+    "@types/node": "^22.8.7",
     "@types/react": "^18.3.12",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
