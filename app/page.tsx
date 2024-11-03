@@ -22,7 +22,7 @@ const Home: React.FC = () => {
         transition={{ delay: 0, ...BASE_TRANSITION }}
         className="text-5xl font-semibold tracking-tighter text-zinc-800 dark:text-zinc-300"
       >
-        Welcome to my Next.js starter!
+        Welcome to the Next.js starter!
       </motion.h1>
     </main>
   )
