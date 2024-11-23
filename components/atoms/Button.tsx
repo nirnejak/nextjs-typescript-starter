@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { cva, type VariantProps } from "class-variance-authority"
 
-import classNames from "@/utils/classNames"
+import classNames from "utils/classNames"
 
 const buttonVariants = cva("rounded-md", {
   variants: {
