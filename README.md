@@ -31,12 +31,6 @@
 npm install
 ```
 
-**Install Git Hooks** (won't let you commit if there are any ESLint issues)
-
-```bash
-npm run prepare
-```
-
 **Start Development Server**
 
 ```bash
