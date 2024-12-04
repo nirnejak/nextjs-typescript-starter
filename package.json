@@ -17,6 +17,7 @@
     "dotenv": "^16.4.5",
     "framer-motion": "^11.12.0",
     "next": "^14.2.18",
+    "next-view-transitions": "^0.3.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sharp": "^0.33.5",

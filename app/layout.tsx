@@ -1,6 +1,7 @@
 import * as React from "react"
 
 import type { Viewport } from "next"
+import { ViewTransitions } from "next-view-transitions"
 
 import { Inter } from "next/font/google"
 import localFont from "next/font/local"
@@ -36,19 +37,21 @@ interface Props {
 
 const RootLayout: React.FC<Props> = ({ children }) => {
   return (
-    <html lang="en">
-      <head>{renderSchemaTags()}</head>
+    <ViewTransitions>
+      <html lang="en">
+        <head>{renderSchemaTags()}</head>
 
-      <body
-        className={classNames(
-          sansFont.variable,
-          monoFont.variable,
-          "overflow-x-hidden bg-zinc-50 dark:bg-zinc-900 font-sans"
-        )}
-      >
-        {children}
-      </body>
-    </html>
+        <body
+          className={classNames(
+            sansFont.variable,
+            monoFont.variable,
+            "overflow-x-hidden bg-zinc-50 dark:bg-zinc-900 font-sans"
+          )}
+        >
+          {children}
+        </body>
+      </html>
+    </ViewTransitions>
   )
 }
 
