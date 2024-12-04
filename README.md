@@ -16,6 +16,7 @@
 
 ## Additional Packages Used
 
+- next-view-transitions - for page smooth transitions
 - Tailwind CSS - for styling(with typography plugin)
 - Framer Motion - for animations
 - Akar Icons - library for rounded icons
