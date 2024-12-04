@@ -6,6 +6,7 @@
 
 ## Included
 
+- `not found page` page to handle 404 routes
 - `config.ts` container site information to be used for seo and schema.org data
 - `seo.ts` util to generate SEO metadata and schema.org
 - `manifest.json` for site info
