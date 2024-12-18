@@ -6,8 +6,8 @@ import { ViewTransitions } from "next-view-transitions"
 import { Inter } from "next/font/google"
 import localFont from "next/font/local"
 
-import classNames from "utils/classNames"
-import { renderSchemaTags } from "utils/schema"
+import classNames from "@/utils/classNames"
+import { renderSchemaTags } from "@/utils/schema"
 
 import "../styles/main.css"
 

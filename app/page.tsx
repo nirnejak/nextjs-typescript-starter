@@ -4,8 +4,8 @@ import { type Metadata } from "next"
 
 import * as motion from "framer-motion/client"
 
-import { BASE_TRANSITION } from "utils/animation"
-import { generateMetadata } from "utils/metadata"
+import { BASE_TRANSITION } from "@/utils/animation"
+import { generateMetadata } from "@/utils/metadata"
 
 export const metadata: Metadata = generateMetadata({
   path: "/",

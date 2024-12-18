@@ -3,7 +3,7 @@ import * as React from "react"
 import { type Metadata } from "next"
 import { Link } from "next-view-transitions"
 
-import { generateMetadata } from "utils/metadata"
+import { generateMetadata } from "@/utils/metadata"
 
 export const metadata: Metadata = generateMetadata({
   path: "/",
