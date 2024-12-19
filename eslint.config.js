@@ -10,7 +10,7 @@ import love from "eslint-config-love"
 import nodePlugin from "eslint-plugin-n"
 import pluginPromise from "eslint-plugin-promise"
 
-// import jsxA11y from "eslint-plugin-jsx-a11y"
+import jsxA11y from "eslint-plugin-jsx-a11y"
 import tailwind from "eslint-plugin-tailwindcss"
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
 
@@ -50,10 +50,13 @@ export default tseslint.config(
       ],
     },
   },
+  {
+    plugins: { "jsx-a11y": jsxA11y },
+    rules: jsxA11y.configs.recommended.rules,
+  },
   pluginPromise.configs["flat/recommended"],
 
   ...compat.extends("next/core-web-vitals", "next"),
-  // jsxA11y.flatConfigs.recommended,
 
   ...tailwind.configs["flat/recommended"],
   eslintPluginPrettierRecommended
