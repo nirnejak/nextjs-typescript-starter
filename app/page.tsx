@@ -24,7 +24,6 @@ const Home: React.FC = () => {
       >
         Welcome to the Next.js starter!
       </motion.h1>
-      <div onClick={() => console.log("motion")}>Click me</div>
     </main>
   )
 }
