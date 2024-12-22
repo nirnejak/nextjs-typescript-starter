@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { type Metadata } from "next"
+import type { Metadata } from "next"
 import { Link } from "next-view-transitions"
 
 import { generateMetadata } from "@/utils/metadata"

@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { type Metadata } from "next"
+import type { Metadata } from "next"
 
 import * as motion from "framer-motion/client"
 
