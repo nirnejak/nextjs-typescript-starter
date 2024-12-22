@@ -36,7 +36,7 @@ export default tseslint.config(
 
   eslint.configs.recommended,
   tseslint.configs.recommended,
-  { ...love, files: ["**/*.js", "**/*.ts"] },
+  { ...love, files: ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"] },
 
   {
     ...nodePlugin.configs["flat/recommended-script"],
@@ -57,6 +57,12 @@ export default tseslint.config(
   pluginPromise.configs["flat/recommended"],
 
   ...compat.extends("next/core-web-vitals", "next"),
+
+  {
+    rules: {
+      "@typescript-eslint/no-magic-numbers": "off",
+    },
+  },
 
   ...tailwind.configs["flat/recommended"],
   eslintPluginPrettierRecommended
