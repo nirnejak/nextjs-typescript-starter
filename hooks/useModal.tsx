@@ -9,6 +9,7 @@ const useModal = (): [
   React.useEffect(() => {
     const handleEsc = (event: KeyboardEvent): void => {
       if (event.key === "Escape") {
+        event.stopPropagation()
         setIsOpen(false)
       }
     }
