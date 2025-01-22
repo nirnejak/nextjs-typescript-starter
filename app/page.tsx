@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import * as motion from "framer-motion/client"
+import * as motion from "motion/react-client"
 
 import { BASE_TRANSITION } from "@/utils/animation"
 import { generateMetadata } from "@/utils/metadata"
