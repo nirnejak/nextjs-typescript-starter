@@ -12,8 +12,15 @@ const useTheme = (): THEME_HOOK => {
 
   React.useEffect(() => {
     setTheme(() => {
-      const savedTheme = localStorage.getItem("theme") as THEME_OPTIONS | null
-      return savedTheme ?? "system"
+      const savedTheme = localStorage.getItem("theme")
+      if (
+        savedTheme === "light" ||
+        savedTheme === "dark" ||
+        savedTheme === "system"
+      ) {
+        return savedTheme
+      }
+      return "system"
     })
   }, [])
 
