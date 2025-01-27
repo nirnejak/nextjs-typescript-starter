@@ -1,24 +1,21 @@
 @import "tailwindcss";
 
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
+@plugin "@tailwindcss/typography";
 
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
-@layer base {
-  *,
-  ::after,
-  ::before,
-  ::backdrop,
-  ::file-selector-button {
-    border-color: var(--color-gray-200, currentColor);
-  }
+* {
+  @apply antialiased;
+  text-rendering: geometricPrecision;
 }
 
-@plugin "@tailwindcss/typography";
+::-moz-selection {
+  @apply bg-zinc-600 text-white;
+  -webkit-text-fill-color: white;
+}
+
+::selection {
+  @apply bg-zinc-600 text-white;
+  -webkit-text-fill-color: white;
+}
 
 @theme {
   --font-sans: var(--sans-font);
@@ -111,20 +108,5 @@
       transform: translate(1px, -2px) rotate(-1deg);
     }
   }
-
   --animate-shake: shake 150ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-::-moz-selection {
-  @apply bg-zinc-600 text-white;
-  -webkit-text-fill-color: white;
-}
-
-::selection {
-  @apply bg-zinc-600 text-white;
-  -webkit-text-fill-color: white;
-}
-
-* {
-  -webkit-font-smoothing: antialiased;
 }
