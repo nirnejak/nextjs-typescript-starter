@@ -61,6 +61,7 @@ export default tseslint.config(
   {
     rules: {
       "@typescript-eslint/no-magic-numbers": "off",
+      "eslint-comments/require-description": "off",
     },
   },
 
