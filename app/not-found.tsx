@@ -2,9 +2,9 @@ import * as React from "react"
 
 import { Link } from "next-view-transitions"
 
-import { generateMetadata } from "@/utils/metadata"
+import { getMetadata } from "@/utils/metadata"
 
-export const metadata = generateMetadata({
+export const metadata = getMetadata({
   path: "/",
   title: "Not Found | Next.js App",
   description: "Page not found on Next.js Typescript Starter",
