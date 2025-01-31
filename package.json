@@ -23,12 +23,12 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sharp": "^0.33.5",
-    "sonner": "^1.7.3",
+    "sonner": "^1.7.4",
     "use-sound": "^4.0.3"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
-    "@tailwindcss/postcss": "^4.0.1",
+    "@tailwindcss/postcss": "^4.0.2",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^22.12.0",
     "@types/react": "^19.0.7",
@@ -46,7 +46,7 @@
     "lint-staged": "^15.4.3",
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.0.1",
+    "tailwindcss": "^4.0.2",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.22.0"
   },
