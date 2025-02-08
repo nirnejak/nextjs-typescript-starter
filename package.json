@@ -17,7 +17,7 @@
     "akar-icons": "^1.9.31",
     "class-variance-authority": "^0.7.1",
     "dotenv": "^16.4.7",
-    "motion": "^12.4.0",
+    "motion": "^12.4.1",
     "next": "^15.1.6",
     "next-view-transitions": "^0.3.4",
     "react": "^19.0.0",
@@ -27,12 +27,12 @@
     "use-sound": "^4.0.3"
   },
   "devDependencies": {
-    "@eslint/js": "^9.19.0",
+    "@eslint/js": "^9.20.0",
     "@tailwindcss/postcss": "^4.0.4",
     "@tailwindcss/typography": "^0.5.16",
     "@types/node": "^22.13.1",
     "@types/react": "^19.0.7",
-    "eslint": "^9.19.0",
+    "eslint": "^9.20.0",
     "eslint-config-love": "^118.0.0",
     "eslint-config-next": "^15.1.6",
     "eslint-config-prettier": "^10.0.1",
