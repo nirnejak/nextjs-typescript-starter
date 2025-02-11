@@ -14,6 +14,7 @@ import "../styles/main.css"
 const sansFont = Inter({
   variable: "--sans-font",
   subsets: ["latin"],
+  display: "swap",
 })
 
 const monoFont = localFont({
