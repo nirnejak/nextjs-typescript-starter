@@ -13,7 +13,7 @@ export const metadata = getMetadata({
 
 const Home: React.FC = () => {
   return (
-    <main className="grid h-screen place-content-center">
+    <main className="grid h-dvh place-content-center">
       <motion.h1
         initial={{ translateY: 20, opacity: 0, filter: `blur(10px)` }}
         animate={{ translateY: 0, opacity: 1, filter: "none" }}

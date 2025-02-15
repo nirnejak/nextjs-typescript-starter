@@ -13,7 +13,7 @@ export const metadata = getMetadata({
 const NotFound: React.FC = () => {
   return (
     <main className="container">
-      <section className="grid min-h-screen place-content-center">
+      <section className="grid min-h-dvh place-content-center">
         <div className="text-center">
           <h1 className="mb-3 text-5xl font-bold tracking-tighter text-zinc-800 dark:text-zinc-300">
             404
