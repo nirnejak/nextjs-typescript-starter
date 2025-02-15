@@ -6,7 +6,7 @@
     "start_url": "/",
     "name": "Next.js TypeScript Starter",
     "short_name": "Next.js TypeScript Starter",
-    "description": "Next.js TypeScript Starter with basic configuration",
+    "description": "Next.js started configured TypeScript, ESLint, Tailwind, with some additional configuration",
     "icons": [
         {
             "src": "/path-to-icons/icon-192x192.png",
