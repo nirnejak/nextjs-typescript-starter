@@ -1,7 +1,8 @@
 const config = {
   baseUrl: "https://example.com",
-  appName: "<Application Name>",
-  appDescription: "<Application Description>",
+  appName: "Next.js TypeScript Starter",
+  appDescription:
+    "Next.js started configured TypeScript, ESLint, Tailwind, with some additional configuration",
   creator: "<Creator Name>",
   authorName: "<Author Name>",
   authorUrl: "<Author Name or Email>",
