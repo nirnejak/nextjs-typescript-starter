@@ -24,7 +24,7 @@
     "react-dom": "^19.0.0",
     "sharp": "^0.33.5",
     "sonner": "^1.7.4",
-    "use-sound": "^4.0.3"
+    "use-sound": "^5.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
