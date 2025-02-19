@@ -17,7 +17,7 @@
     "akar-icons": "^1.9.31",
     "class-variance-authority": "^0.7.1",
     "dotenv": "^16.4.7",
-    "motion": "^12.4.4",
+    "motion": "^12.4.5",
     "next": "^15.1.7",
     "next-view-transitions": "^0.3.4",
     "react": "^19.0.0",
