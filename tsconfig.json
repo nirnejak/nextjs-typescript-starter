@@ -19,7 +19,8 @@
       "@/*": ["./*"]
     },
     "strictNullChecks": true,
-    "plugins": [{ "name": "next" }]
+    "plugins": [{ "name": "next" }],
+    "erasableSyntaxOnly": true
   },
   "include": [
     "next-env.d.ts",
