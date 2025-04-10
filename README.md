@@ -1,5 +1,5 @@
 <h1 align="center">
-  Next.js TypeScript Starter
+  Next.js TypeScript SaaS Starter
 </h1>
 
 <p align="center">
@@ -69,8 +69,8 @@
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/nirnejak/nextjs-typescript-starter.git
-cd nextjs-typescript-starter
+git clone https://github.com/nirnejak/nextjs-typescript-saas.git
+cd nextjs-typescript-saas
 ```
 
 2. Install dependencies:

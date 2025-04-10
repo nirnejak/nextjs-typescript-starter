@@ -8,7 +8,7 @@ import { getMetadata } from "@/utils/metadata"
 export const metadata = getMetadata({
   path: "/",
   title: "Next.js App",
-  description: "Next.js Typescript Starter",
+  description: "Next.js TypeScript SaaS Starter",
 })
 
 const Home: React.FC = () => {

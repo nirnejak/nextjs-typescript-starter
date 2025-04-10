@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "nextjs-typescript-starter",
+      "name": "nextjs-typescript-saas",
       "dependencies": {
         "@auth/drizzle-adapter": "^1.8.0",
         "@mdx-js/loader": "^3.1.0",
