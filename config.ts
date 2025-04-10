@@ -1,5 +1,5 @@
 const config = {
-  baseUrl: "https://example.com",
+  baseUrl: "https://nextjs-typescript-saas.vercel.app",
   appName: "Next.js TypeScript Starter",
   appDescription:
     "Next.js started configured TypeScript, ESLint, Tailwind, with some additional configuration",
