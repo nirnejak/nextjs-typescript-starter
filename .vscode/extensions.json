@@ -6,6 +6,7 @@
     "jock.svg",
     "bradlc.vscode-tailwindcss",
     "csstools.postcss",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "unifiedjs.vscode-mdx"
   ]
 }
