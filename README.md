@@ -63,6 +63,30 @@ bun run format
 bun run type-check
 ```
 
+**Generate Database Migrations**
+
+```bash
+bun run db:generate
+```
+
+**Run Database Migrations**
+
+```bash
+bun run db:migrate
+```
+
+**Push Database Migrations**
+
+```bash
+bun run db:push
+```
+
+**Start Database Admin**
+
+```bash
+bun run db:studio
+```
+
 **Build for Production**
 
 ```bash
