@@ -1,7 +1,7 @@
 import * as React from "react"
 
 import type { MDXComponents } from "mdx/types"
-import Link from "next/link"
+import { Link } from "next-view-transitions"
 import { codeToHtml } from "shiki"
 
 import classNames from "@/utils/classNames"
