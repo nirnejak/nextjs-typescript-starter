@@ -18,7 +18,7 @@
     "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
-    "@auth/drizzle-adapter": "^1.9.1",
+    "@auth/drizzle-adapter": "^1.10.0",
     "@mdx-js/loader": "^3.1.0",
     "@mdx-js/react": "^3.1.0",
     "@neondatabase/serverless": "^1.0.1",
@@ -27,7 +27,7 @@
     "class-variance-authority": "^0.7.1",
     "dotenv": "^16.5.0",
     "drizzle-orm": "^0.44.2",
-    "motion": "^12.18.1",
+    "motion": "^12.19.1",
     "next": "^15.3.4",
     "next-auth": "^5.0.0-beta.25",
     "next-view-transitions": "^0.3.4",
@@ -43,9 +43,9 @@
     "@tailwindcss/postcss": "^4.1.10",
     "@tailwindcss/typography": "^0.5.16",
     "@types/mdx": "^2.0.13",
-    "@types/node": "^24.0.3",
+    "@types/node": "^24.0.4",
     "@types/react": "^19.1.8",
-    "drizzle-kit": "^0.31.1",
+    "drizzle-kit": "^0.31.2",
     "eslint": "^9.29.0",
     "eslint-config-love": "^121.0.0",
     "eslint-config-next": "^15.3.4",
@@ -58,12 +58,12 @@
     "globals": "^16.2.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.0",
     "prettier-plugin-tailwindcss": "^0.6.13",
     "shiki": "^3.7.0",
     "tailwindcss": "^4.1.10",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.34.1"
+    "typescript-eslint": "^8.35.0"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": "eslint"
